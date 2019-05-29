@@ -39,7 +39,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public Result handleMethodArgumentNotValidException(MethodArgumentNotValidException e, HttpServletRequest request) {
 
-        logger.error("参数校验错误 , uri: {} , caused by: ", request.getRequestURI(), e);
+        logger.error("参数校验错误 , url: {} , caused by: ", request.getRequestURI(), e);
 
         List<ParameterInvalidItem> parameterInvalidItemList = new ArrayList<>();
 

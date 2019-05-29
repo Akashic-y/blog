@@ -1,8 +1,8 @@
 <template>
   <div id="register" v-title data-title="注册 - For Fun">
-    <!--<video preload="auto" class="me-video-player" autoplay="autoplay" loop="loop">
-          <source src="../../static/vedio/sea.mp4" type="video/mp4">
-      </video>-->
+    <video preload="auto" class="me-video-player" autoplay="autoplay" loop="loop">
+          <source src="../../static/video/sea.mp4" type="video/mp4">
+      </video>
 
     <div class="me-login-box me-login-box-radius">
       <h1>ForFun 注册</h1>
