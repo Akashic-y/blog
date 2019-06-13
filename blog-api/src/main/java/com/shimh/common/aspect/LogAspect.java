@@ -67,9 +67,9 @@ public class LogAspect {
         log.setMethod(className + "." + methodName + "()");
 
         //请求的参数
-        Object[] args = joinPoint.getArgs();
+        /*Object[] args = joinPoint.getArgs();
         String params = JSON.toJSONString(args[0]);
-        log.setParams(params);
+        log.setParams(params);*/
 
         //获取request 设置IP地址
         HttpServletRequest request = HttpContextUtils.getHttpServletRequest();
