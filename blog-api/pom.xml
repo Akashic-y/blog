@@ -78,12 +78,10 @@
 			<scope>test</scope>
 		</dependency>
 		
-		
 		<dependency>
 		    <groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-starter-data-redis</artifactId>
 		</dependency>	
-		
 		
 		<dependency>
 		    <groupId>com.alibaba</groupId>
@@ -100,8 +98,7 @@
 		<dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.38</version>
-        </dependency> 
+            </dependency> 
         
 		<dependency>
 		    <groupId>org.apache.shiro</groupId>
@@ -129,10 +126,7 @@
         <dependency>
 		    <groupId>commons-collections</groupId>
 		    <artifactId>commons-collections</artifactId>
-		    <version>3.2.2</version>
 		</dependency>
-
-
 
         <dependency>
         	<groupId>org.springframework</groupId>

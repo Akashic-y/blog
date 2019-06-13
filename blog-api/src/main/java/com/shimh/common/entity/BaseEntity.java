@@ -16,7 +16,9 @@ import java.io.Serializable;
 @MappedSuperclass
 public abstract class BaseEntity<ID extends Serializable> implements Serializable {
 
-    @Id
+	private static final long serialVersionUID = 1L;
+	
+	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private ID id;
 

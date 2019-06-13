@@ -18,10 +18,10 @@
     name: 'CardMe',
     data() {
       return {
-        qq: {title: 'QQ', message: '919431514'},
+        qq: {title: 'QQ', message: '1678549524'},
         github: {
           title: 'github',
-          message: '<a target="_blank" href="https://github.com/shimh-develop">https://github.com/shimh-develop</a>'
+          message: '<a target="_blank" href="https://github.com/Akashic-y">https://github.com/Akashic-y</a>'
         }
       }
     },
