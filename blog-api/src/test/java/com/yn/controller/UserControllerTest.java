@@ -38,7 +38,7 @@ public class UserControllerTest extends BlogApiApplicationTests{
 	public void saveUserTest() throws Exception {
 		User u = new User();
 		u.setAccount("yn");
-		u.setNickname("史明辉");
+		u.setNickname("test");
 		u.setPassword("123456");
 		u.setAdmin(true);
 		u.setCreateDate(new Date());
